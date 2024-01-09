@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(name='wrandai', 
       description='This is a repository for calculating the W Randomness Coefficient \
@@ -8,7 +8,7 @@ setup(name='wrandai',
       author_email='will.leeney@outlook.com',
       license='MIT',
       version='0.1.0', 
-      packages=find_packages(),
+      packages=['wrandai'],
       install_requires=['scipy', 'numpy'],
       classifiers=[
         'Development Status :: 4 - Beta',

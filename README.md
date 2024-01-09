@@ -12,7 +12,7 @@ pip install wrandai
 
 
 ```python
-from wrandai.wrandai import ww_randomness
+from wrandai import wrandai
 
 n_algorithms = 10
 n_benchmark_tests = 20
@@ -20,9 +20,9 @@ n_random_seeds = 15
 
 random_rankings = np.array([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3], [4, 4, 4, 4]])
 print(f'{random_rankings[:, 0]} -> all seeds, one algorithm')
-print(f'W Randomness Coefficient for Random Rankings: {ww_randomness(random_rankings)}')
+print(f'W Randomness Coefficient for Random Rankings: {wrandai.w_rand_wasserstein(random_rankings)}')
 perfect_rankings = random_rankings.T
-print(f'W Randomness Coefficient for Perfect Rankings: {ww_randomness(random_rankings)}')
+print(f'W Randomness Coefficient for Perfect Rankings: {wrandai.w_rand_wasserstein(random_rankings)}')
 
 
 ```

@@ -1,8 +1,9 @@
 
 """
-pyexample.
+wrandai.
 
-An example python library.
+This is a repository for calculating the $W$ Randomness Coefficient 
+of a set of algorithms on a suite of Machine Learning benchmarks. 
 """
 __version__ = "0.1.0"
 __author__ = 'William Leeney'
