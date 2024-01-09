@@ -20,6 +20,7 @@ The following code demonstrates how to quantify the uncertainty of a Machine Lea
 
 ```python
 from wrandai import wrandai 
+import numpy as np
 
 n_algorithms = 10
 n_benchmark_tests = 20
