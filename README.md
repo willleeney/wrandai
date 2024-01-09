@@ -3,6 +3,8 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/willleeney.svg?style=social&label=Follow%20%40willleeney)](https://twitter.com/willleeney)
 ![GitHub Repo stars](https://img.shields.io/github/stars/willleeney/wrandai?style=social)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/willleeney/wrandai/main-workflow.yaml)
+[![PyPI Status](https://badge.fury.io/py/wrandai.svg)](https://badge.fury.io/py/wrandai)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/wrandai)](https://pepy.tech/project/wrandai)
 
 
 This is a repository for calculating the $W$ Randomness Coefficient of a set of algorithms on a suite of Machine Learning benchmarks. 
